@@ -70,7 +70,13 @@ Tasks that I would envisage myself working on are could be anything applicable t
 
 
 #### Tyrone Cook
-bio
+##### s3731802@student.rmit.edu.au
+My background in IT is very brief, only having recently completed the foundation subjects for this degree. I have a basic understanding of C and Java programming languages. Although I have very little experience especially in developing web applications, I'm eager to diversify my skillset by learning the new languages, programs and methods that I will require to complete my tasks in this project.
+
+The challenges for me in this project will be mainly focused around familiarizing myself with a subject I have no prior experience with (web applications). Being a relatively more inexperienced member of this group when it comes to programming, the challenge will be for me to keep up with the rest of the group and making a meaningful contribution to this project.
+
+The types of tasks that that I will be contributing to this project will be limited by my abilities, being so new to this area. As stated previously I'll be a member of this group that is very foreign to the work required in this project so my tasks will be to learn as much as I can from the more experienced members and contribute to this project where required.
+
 
 #### Adam Rowsell
 bio
