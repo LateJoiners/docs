@@ -140,6 +140,9 @@ At each stage, a more technical testing process could be followed - i.e. seleniu
 
 3. Our system should have a suitable schedule and process for automatic backups of the database. This can be integrated as part of the Heroku platform we plan to deploy on.
 
+   Testing to ensure this is occurring as it should be can be achieved by manual inspection of the location where backup files should be stored to ensure they are in fact getting written in accordance with the schedule we have set, and inspection of those files to ensure that they do contain new information generated since the last time a backup was performed.
+
+
 
 ### Project Motivation
 
