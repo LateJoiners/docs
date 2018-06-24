@@ -82,7 +82,27 @@ The types of tasks that that I will be contributing to this project will be limi
 bio
 
 #### Shae Tatlock
-bio
+##### s3655740@student.rmit.edu.au
+
+##### Background
+After I finished high school I spent 3 months doing a computer assembly and repair course, this is where my interests in programming began. I followed up that course with a year in Accounting during this time I spent part of my free time programming, this sparked my love for it.
+
+During this time and before my current course I taught myself to be literate with Java, Python, Javascript, as well as HTML5 and CSS3. I am also very interested in the server side and can see that being in my future.
+
+I am yet to work in an IT role, although every job I have worked I have helped out in that space.
+
+##### Strong Points
+
+I am a team player, I have spent my life in teams. I have the rare ability to ask if I am not sure about something, communication is key and one of my strengths.
+
+I also learn quickly, if something needs to be picked up by one of us I will be able to put my hand up and take the responsibility.
+
+##### Challenges
+I have not worked with a group in programming before, I will have to learn how my teammates program and how they work for me to accomplish the goals we have set.
+
+##### Contributes
+* Design 
+* front end programming.
 
 ### Demonstrable Outcomes
 
