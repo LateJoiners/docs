@@ -78,9 +78,6 @@ The challenges for me in this project will be mainly focused around familiarizin
 The types of tasks that that I will be contributing to this project will be limited by my abilities, being so new to this area. As stated previously I'll be a member of this group that is very foreign to the work required in this project so my tasks will be to learn as much as I can from the more experienced members and contribute to this project where required.
 
 
-#### Adam Rowsell
-bio
-
 #### Shae Tatlock
 ##### s3655740@student.rmit.edu.au
 
@@ -101,14 +98,12 @@ I also learn quickly, if something needs to be picked up by one of us I will be 
 I have not worked with a group in programming before, I will have to learn how my teammates program and how they work for me to accomplish the goals we have set.
 
 ##### Contributes
-* Design 
+* Design
 * front end programming.
 
 ### Demonstrable Outcomes
 
 #### Features
-*describe the features that can be demonstrated*
-*list 5 features and explain how we will validate it has been implemented*
 
 1. Our system should be able to store information about user accounts, and allow users to create new accounts or delete their currently existing account.
 
@@ -133,8 +128,6 @@ I have not worked with a group in programming before, I will have to learn how m
 At each stage, a more technical testing process could be followed - i.e. selenium (or something similar) could be used to automate the process of extensively testing objective #3 (i.e. to ensure that ALL tournaments in the database are displayed, and that ALL information for those tournaments is viewable, and the same for individual games, as opposed to manual spot checks of individual tournaments/games)
 
 #### Extended features
-*features to be added if time permits*
-*list at least 3 and explain how we will validate it has been implemented*
 
 1. Our system should source tournament and game data in real-time from APIs for tournaments where an API is available.
 
@@ -145,26 +138,23 @@ At each stage, a more technical testing process could be followed - i.e. seleniu
 
    Alternatively (and probably more likely), this functionality could be built into the application itself, wrapped in if clauses that only trigger if a debug flag/variable is set.
 
-3. Our system should have a suitable schedule and process for automatic backups of the database. [detail on database backup validation to come]
+3. Our system should have a suitable schedule and process for automatic backups of the database. This can be integrated as part of the Heroku platform we plan to deploy on.
 
 
 ### Project Motivation
-*describe what motivated the group to choose this project*
 
 - We felt it was a good opportunity to get exposure to a stack we wanted experience in.
-- Touches a variety of important technologies involved in web development: front-end, Styling frameworks, Javascript, back-end, databases, Angular
+- Touches a variety of important and current technologies involved in web development: front-end, Styling frameworks, Javascript, back-end, databases, Angular
 - Provides a potentially handy portfolio item post-degree
 - Was pertinent given the popularity of sporting results in modern culture
 - A variety of existing sites in this field, from which inspiration (both positive and negative) can be drawn
 
 ### Project Justification
-*explain how project scope fulfills below criteria*
 
 #### Justified Workload
 *develop project schedule*
 
 #### Beyond Current Capabilities
-*explain how it will extend current IT knowledge*
 * Using Public APIs
   * practical experience with authentication processes
   * parsing JSON data from different sources
@@ -173,9 +163,10 @@ At each stage, a more technical testing process could be followed - i.e. seleniu
 * Using Node and Express as a backend API technology
 * Using a NoSQL/non-relational database for data storage
 * Managing and coordinating a distributed team across the different time zones
+* Getting hands on experience with DevOps and Continuous Integration
 
 #### Project Risks
-*list 3 project risks that would majorly interfere with project outcome*
+##### Risks - Effect on Project Outcome
 1. API goes offline/changes output format: After implementing the extended feature for real-time data integration utilizing an API/a number of APIs, it is possible that the API may go offline, or that the way it structures output data could change.
 
    We could attempt to limit this issue by designing our system to be capable of sourcing data for one tournament from a number of different APIs, to retain realtime functionality even when one API is unavailable. Otherwise the last retrieved realtime data would be stored in the database and accessed instead, thus limiting the problem (though not solving it completely). In a real-world solution we would also want a notification to be sent to an administrator when this issue is encountered.
@@ -186,7 +177,9 @@ At each stage, a more technical testing process could be followed - i.e. seleniu
 
 3. Key man dependencies: With certain individuals more experienced than others, we could see silos of responsibility. One person might end up being the only one able to solve certain tasks, putting pressure on the particular person and on project delivery.
 
-*list 3 team dynamics related challenges that would delay project's progress*
+	   It is important that all team members have, at the very least, a passing familiarity with the stack employed. Sprint code reviews will also provide an opportunity for less-experienced team members to learn from both successes and failures. It is important that all team members feel that they can contribute, even in the abstract, even if they feel unable to contribute directly to the codebase.
+
+##### Risks - Team Dynamics
 1. Time difference of team members: Having team members in significantly different timezones can make realtime collaboration hard.
 
    We can face this issue by ensuring that we fully leverage non realtime collaborative opportunities, and make the most of what time we are able to schedule that suits all team members.
@@ -197,19 +190,21 @@ At each stage, a more technical testing process could be followed - i.e. seleniu
 
 3. Poor team member commitment has the potential to derail the project, putting far too much pressure on the more committed individuals of the team. This also shrinks the about of internal team feedback on both the end product and quality of code.
 
-*for each risk and challenge indicate how we propose to monitor and minimise the issue arising*
+   All team members must have access to the codebase in the team repository. They should also have github integrations enabled with their Slack account in order to receive notification when new commits are merged and pushed. This will provide continuous impetus for contributions.
+
 
 ### Part 2 - *HOW*
 
 #### Resources and Tools
-*list the technology, tools and resources you will use for each phase of the project*
 
 ##### Git
 ######  A version control system
 
 * Ensure easy rollback of code changes
 * Merging of changes
-    * Contributors can work concurrently without getting in anothers way
+    * Contributors can work concurrently without getting in each others way
+* Forking and branching allows for non-destructive experimentation
+* Easy tracking of contributions
 
 ###### Alternatives
 
@@ -238,6 +233,7 @@ At each stage, a more technical testing process could be followed - i.e. seleniu
 * Allows for rapid creation of SPA applications
 * Small learning curve
 * Comes with a CLI tool to handle generation of boilerplate code and building of the application
+* Simple local-server allows for quick feedback on changes
 
 ###### Alternatives
 
@@ -271,17 +267,8 @@ At each stage, a more technical testing process could be followed - i.e. seleniu
 * Semantic
 * Material CSS
 
-*Each tool/resource needs*
-- Name
-- short Description
-- rationale for using
-- specific version and cost (if any?)
-- describe any alternatives not used
-
 
 #### Collaborative Workspaces
-*Describe workspaces used to collaborate*
-*List workspaces*
 - [Trello](https://trello.com/b/hO83Xzoj/latejoiners)
 - [github](https://github.com/LateJoiners)
 - [Slack](https://rmitlatejoiners.slack.com)
@@ -298,6 +285,7 @@ Slack
 - can launch additional integrated team applications (hangouts, github) to provide common launching place and place for teammates to join, or see notifications (ie. github pulls etc.)
 - retains a history of the communications undertaken
 - each team member should have Slack accessibility on their potable device with **notifications enabled**
+- Direct messages or channel broadcasts should be responded to within a maximum of 8 hours before additional protocols kick in
 
 Google Hangouts/Docs
 - part of the google apps suite available to all RMIT students
@@ -311,27 +299,26 @@ Notifications
 - push notifications, or integrated notifications (as per Slack) minimise the ignorance of notification of communications quite significantly. It is considered that any team member who does not respond to communications does so intentionally.
 - intentionally ignoring communications will leave team members without a voice in the development of the application, and as alluded to in the note above, without a record of contribution
 
+Emails
+- to be used in the event of unsuccessful communications with a team member.
+- emails will be sent in event of failure to respond to Slack messages(s)
+- expected response time to emails is no more than 24 hours
 
+Response Protocols
+- Wait for response
+- Send notification of MIA status to team for additional team members to ping
+- Notify Sarah
+- Seek guidance from Sarah and Rusel
 
-- *List tools to communicate*
-- *Describe expected frequency of responses*
-- *Describe use of tools in weekly workflow*
-- *Detail action plan in event of communications not being responded to by a team member or members*
 
 #### Decision Making
-Majority-rule where each vote members' vote has equal weighting.
-
-*Describe decision-making process*
-*Describe dispute resolution process*
+- Decisions are based on a Majority-rule principle, where each members has a vote, and each vote has equal weighting
+- Decisions must be made in a public (for the team) forum ie. Slack
+- All team members have the right to question a decision, but both for *and* against decisions must be backed with empirical evidence to avoid decisions being made purely on taste
+- Team members have a right to have their opinions heard in open communication channels.
 
 
 ### Part 3 - *WHEN*
-*List Tasks with enough detail so assessor can see what's expected from **each** team member **each** week*
-*List tasks to be completed between Wk 3 - 12 with a hyperlink to the corresponding [Trello](https://trello.com/b/hO83Xzoj/latejoiners) card*
-*Each task needs*
-- Descriptive Title
-- Planned Start and End Date
-- Lead by (member's name)
 
 ##### Week 3:
  - Luke
@@ -490,15 +477,7 @@ Majority-rule where each vote members' vote has equal weighting.
   - Ask for help and assist others on slack as required
 
 
-*Linked Trello card should include*
-- A descriptive title
-- A planned start and due date
-- The estimated time required to complete the task
-- A precise description of the task that is to be completed with any necessary contextual information.
-- A description of the artefact the task will produce.
-- Who is responsible for managing the task to completion.
-
-#### User stories (we need to create trello cards for these):
+#### User stories
 
  - As a user I should be able to register on the site
  - As a registered user I should be able to login to the site with my details
@@ -522,10 +501,3 @@ Majority-rule where each vote members' vote has equal weighting.
  - Setup continuous integration pipeline
  - Setup Dev and QA environments
  - Setup 'one-click' deployments
-
-
-### Part 4 - *Professionalism*
-*Font **must** be Arial 12*
-*Figures must be clearly labelled*
-*Include a Table of Contents with page numbers*
-*Where possible use **bullet points** *
