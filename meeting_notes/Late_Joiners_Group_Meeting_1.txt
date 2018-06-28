@@ -1,0 +1,58 @@
+﻿Late Joiners - Group Catchup #1
+
+
+2018-06-13  1000 UTC
+
+
+Present: 
+Luke Warren
+Tyrone Cook
+Blair Fraser
+Matt Greig
+
+
+Meetup Tech:
+Slack
+Google Hangout
+
+
+Introductions:
+Members of the group introduced themselves, it was great to be able to put faces to names. We briefly described our backgrounds and experience levels.
+
+
+We’re still waiting to see if a final group member will be assigned by Russel.
+
+
+Still waiting for communications from our mentor.
+
+
+MG to share lead responsibilities with Luke; step in in his potential absence (due to -8hr time difference in SA) when meeting with mentor/group.
+
+
+CPT111 Group Assignment
+
+
+The group agreed upon the proposal to create a Sports ‘Tips’ Web Application which we will submit for approval.
+
+
+It was agreed that it would be best to try and develop the application to be as abstract from the data as possible. The purposes of this are twofold:
+1. Will allow us to develop and test with static data to ensure our code is functional without needing to debug potentially corrupt API’s.
+2. Will allow us to embed a variety of sports data, not exclusively the World Cup, which will have concluded before the final delivery of the assignment, possibly corrupting the functionality of our finished app.
+
+
+Luke briefed us on the advantages of a MEAN stack. It was agreed that we will employ this stack for our application.
+
+
+We agreed to use a repository hosted on github to collaborate on the documentation for A1. It was felt this would be a good opportunity for those team members with limited git (or VCS) experience to gain valuable exposure to cloning/branching/committing/pulling/pushing which will be used more heavily throughout further development.
+
+
+Matt G. to start adding dot points to A1 structure which can then be fleshed out by team members in a pseudo-kanban approach.
+
+
+All group members felt comfortable with meeting the objectives required for A1 due 24/6.
+
+
+Will aim to meet by hangout again in at most, one weeks time.
+
+
+Meeting concluded at 1100 UTC
