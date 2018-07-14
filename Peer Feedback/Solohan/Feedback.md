@@ -1,3 +1,5 @@
+https://trello.com/b/uqq84YOZ
+
 ### Project description clarity: 5
 
 Project description outlines the high-level functionality the project will provide in clear and explicit terms. Some specific omitted (can a patient revise their logs after the fact if they realise something they have been experiencing for a time is in fact a symptom of their condition?), but nothing that rises to the level of detail that would be expected to be present in a high-level description like this.
