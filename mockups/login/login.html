@@ -5,14 +5,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-  <link rel="stylesheet" href="theme.css" type="text/css"> </head>
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <link rel="stylesheet" href="non-bootstrap.css" type="text/css">
+</head>
 
-<body class="">
+<body>
   <div class="py-5">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="display-2">TipPlus</h1>
+          <h1 class="display-2">
+            <div style="">
+              <span style="color: inherit; font-size: 5.5rem;">TipPlus</span>
+              <span class="badge badge-pill badge-secondary">+</span>
+            </div>
+          </h1>
         </div>
       </div>
     </div>
@@ -30,28 +37,31 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-12">
-              <form class="">
-                <div class="form-group">
-                  <label>Username</label>
-                  <input type="text" class="form-control max-width-400" placeholder="Enter username"> </div>
-                <div class="form-group">
-                  <label>Password</label>
-                  <input type="password" class="form-control max-width-400" placeholder="Password"> </div>
-                <button type="submit" class="btn btn-outline-primary">Submit</button>
-              </form>
+          <form class="">
+            <div class="form-group col-md-12">
+              <label>Username</label>
+              <input type="username" class="form-control border-danger" placeholder="Enter username">
             </div>
-          </div>
+            <div class="form-group col-md-12">
+              <label>Password</label>
+              <input type="password" class="form-control border-danger" placeholder="Password"> </div>
+            <div class="form-group col-md-12">
+                <div class="">
+            <button type="submit" class="btn btn-outline-primary">Submit</button></div>
+            <div class="">
+            <span class="text-danger">Username or password incorrect. Please try again.</span>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
-  <div class="">
+  <div class="py-0">
     <div class="container">
       <div class="row">
-        <div class="col-md-3">
-          <div class="btn-group btn-group-sm  btn-group-md float-right">
+        <div class="col-md-12">
+          <div class="btn-group btn-group-sm float-right float-md-right">
             <a href="#" class="btn btn-outline-primary">Forgot Password?</a>
             <a href="#" class="btn btn-outline-primary">Sign up</a>
           </div>
