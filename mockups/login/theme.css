@@ -48,7 +48,8 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent;
+ }
 
 @-ms-viewport {
   width: device-width; }
@@ -64,7 +65,11 @@ body {
   line-height: 1.5;
   color: #333;
   text-align: left;
-  background-color: white; }
+  background-color: white;
+  
+ }
+
+
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -6176,6 +6181,4 @@ html, body {
     background: linear-gradient(white, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0)); }
 
 
-.max-width-400 {
-  max-width:400px;
-}
+
