@@ -2,7 +2,6 @@
 
 ## Part 1 - Design
 
-
 ### Database Design and Storage
 
 The project will be using a NoSQL databased called MongoDB. This means stepping back from normalisation in favour of fast reads and easy data manipulation.
@@ -37,10 +36,13 @@ _Note - Underscores indicate a link to another piece of data in the same collect
     - _id 
     - _home team (GUID)
     - _away team (GUID)
-    - venue
+    - venue (string)
     - score
         - home team score (number)
         - away team score (number)
+        - crowd provided scores (array)
+            - home team score (number)
+            - away team score (number)
  - results (array)
     - competition leaderboard (array)
         - _team (GUID)
@@ -53,14 +55,18 @@ _Note - Underscores indicate a link to another piece of data in the same collect
  - update on (ISO date)
  - created on (ISO date)
 
-#### Tournament Picks
- - _id (GUID)
- - _user (GUID)
- - _tournament (GUID)
- - picks
-    - _game (GUID)
-    - home team score (number)
-    - away team score (number)
+!!!INSERT mongo-database-design.jpg image here!!!
+
+#### User Picks
+_id (GUID)
+_user (GUID)
+_tournament (GUID)
+picks (array)
+    _game (GUID)
+    home team score (number)
+    away team score (number)
+
+### EVF Design
 
 
 
