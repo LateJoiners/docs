@@ -82,6 +82,12 @@ Automatic backups with will happen on a daily basis by our database hosting prov
 
 MLab makes it easy to automate backups of MongoDB database instances.
 
+#### Real-time Tournament Data Sourcing
+
+This feature will allow the application to integrate with another tournament platform to provide scores and/or tournament information.
+
+!!!INSERT external-api-integration.jpg here!!!
+
 ## Part 2 - Plan
 
 #### Resources and Tools
