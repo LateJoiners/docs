@@ -1,0 +1,19 @@
+.ladder_title {
+    font-weight: bold;
+}
+
+.location {
+    font-size: smaller;
+}
+
+.ul_no_bullet {
+    list-style-type: none;
+}
+
+.box_score {
+    border: solid;
+}
+
+.game {
+    width: 175%;
+}
