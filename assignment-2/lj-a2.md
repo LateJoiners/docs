@@ -68,6 +68,14 @@ picks (array)
 
 ### EVF Design
 
+#### Crowd Sourcing Scores
+
+This mechanism allows our loyal user base to provide scores for games to allow quicker score turn around.
+
+First, we need to provide a UI mechanism for our userbase to input scores for a game. Onces a threshold of identical scores have been supplied for a game, the game result will be automatically updated.
+
+_Note - Provisions have been made for this in the database schema._
+
 #### Automatic Backups
 
 Automatic backups with will happen on a daily basis by our database hosting provider MLab (see resources section for more info).
