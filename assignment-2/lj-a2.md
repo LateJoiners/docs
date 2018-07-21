@@ -1,10 +1,70 @@
 # Assignment 2 - Late Joiners
 
-## Part 1
+## Part 1 - Design
 
-Mock ups and such
 
-## Part 2
+### Database Design and Storage
+
+The project will be using a NoSQL databased called MongoDB. This means stepping back from normalisation in favour of fast reads and easy data manipulation.
+
+The following is the proposed data structure for the for our MVFs:
+
+_Note - Underscores indicate a link to another piece of data in the same collection or from another collection_
+
+#### Users
+ - _id (GUID)
+ - name (string)
+ - password-hash (string)
+ - email (string)
+ - permissions (array of strings)
+ - _tournaments (array of GUIDs)
+ - updated by (ISO date string)
+ - created by (GUID)
+ - update on (ISO date string)
+ - created on (GUID)
+
+#### Tournaments
+ - _id (GUID)
+ - name (string)
+ - sport (string)
+ - teams (array)
+    - _id (GUID)
+    - name (string)
+    - venues (array)
+        - name
+        - default
+ - games (array)
+    - _id 
+    - _home team (GUID)
+    - _away team (GUID)
+    - venue
+    - score
+        - home team score (number)
+        - away team score (number)
+ - results (array)
+    - competition leaderboard (array)
+        - _team (GUID)
+        - score (number)
+    - picker leaderboard (array)
+        - _user (GUID)
+        - score (number)
+ - updated by (GUID)
+ - created by (GUID)
+ - update on (ISO date)
+ - created on (ISO date)
+
+#### Tournament Picks
+ - _id (GUID)
+ - _user (GUID)
+ - _tournament (GUID)
+ - picks
+    - _game (GUID)
+    - home team score (number)
+    - away team score (number)
+
+
+
+## Part 2 - Plan
 
 #### Resources and Tools
 
