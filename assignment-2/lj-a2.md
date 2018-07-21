@@ -68,7 +68,11 @@ picks (array)
 
 ### EVF Design
 
+#### Automatic Backups
 
+Automatic backups with will happen on a daily basis by our database hosting provider MLab (see resources section for more info).
+
+MLab makes it easy to automate backups of MongoDB database instances.
 
 ## Part 2 - Plan
 
@@ -172,6 +176,12 @@ picks (array)
 ###### Alternatives
 * Jenkins
 * Visual Studio Team Services
+
+#### MLab
+##### MongoDB database provider online
+* Free tier for dev and QA environments
+* Automatic backups
+* [mlab.com](https://mlab.com/)
 
 #### Collaborative Workspaces
 * [Trello](https://trello.com/b/hO83Xzoj/latejoiners)
