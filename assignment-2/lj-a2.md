@@ -82,6 +82,8 @@ Automatic backups with will happen on a daily basis by our database hosting prov
 
 MLab makes it easy to automate backups of MongoDB database instances.
 
+Backups will periodically be made and saved to an external source of our choosing.
+
 #### Real-time Tournament Data Sourcing
 
 This feature will allow the application to integrate with another tournament platform to provide scores and/or tournament information.
@@ -196,6 +198,12 @@ This feature will allow the application to integrate with another tournament pla
 * Free tier for dev and QA environments
 * Automatic backups
 * [mlab.com](https://mlab.com/)
+
+#### Draw.IO
+##### Free online diagramming tool
+* UML and flow diagrams
+* Exports to jpg, png and pdf
+* [www.draw.io](https://www.draw.io/)
 
 #### Collaborative Workspaces
 * [Trello](https://trello.com/b/hO83Xzoj/latejoiners)
