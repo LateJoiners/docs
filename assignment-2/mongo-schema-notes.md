@@ -39,5 +39,3 @@ Collections
     - _game
     - home team score
     - away team score
-
-# Tournament Results 
