@@ -1,7 +1,7 @@
 {
 	"_type": "export",
 	"__export_format": 3,
-	"__export_date": "2018-07-31T20:17:02.105Z",
+	"__export_date": "2018-07-31T21:19:43.930Z",
 	"__export_source": "insomnia.desktop.app:v6.0.1",
 	"resources": [
 		{
@@ -66,8 +66,23 @@
 			},
 			"isPrivate": false,
 			"metaSortKey": 1533065031206,
-			"modified": 1533067270590,
+			"modified": 1533071798853,
 			"name": "Local",
+			"parentId": "env_cbbe5b2a29bf4485bd82f8b4a06d4b1f",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_7a9e5ba2fafe49529b61b17f24dd128b",
+			"color": null,
+			"created": 1533071801388,
+			"data": {
+				"server": "https://lj-server.herokuapp.com",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YjYwZDFkNWIyOGE2MzAwMmY4ZmNhNzgiLCJ1c2VybmFtZSI6Imx1a2VAbGF0ZWpvaW5lcnMuY29tIiwiZGlzcGxheU5hbWUiOiJMdWtlIiwiZW1haWwiOiJsdWtlQGxhdGVqb2luZXJzLmNvbSIsInBlcm1pc3Npb25zIjpbXSwiaWF0IjoxNTMzMDcxODMwLCJleHAiOjE1MzM2NzY2MzB9.7Z1wqWnBDV1aeRBWU2GKjHyyNvSDTCRnFNoF8j120lQ"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1533071801388,
+			"modified": 1533071852098,
+			"name": "Dev",
 			"parentId": "env_cbbe5b2a29bf4485bd82f8b4a06d4b1f",
 			"_type": "environment"
 		},
@@ -108,7 +123,7 @@
 			"authentication": {},
 			"body": {
 				"mimeType": "application/json",
-				"text": "{\n\t\"email\": \"luke@latejoiners.com\",\n\t\"password\": \"luke1234\",\n\t\"displayName\": \"Luke\"\n}"
+				"text": "{\n\t\"email\": \"admin@latejoiners.com\",\n\t\"password\": \"admin1234\",\n\t\"displayName\": \"Admin\",\n\t\"permissions\": [\"permissions\"]\n}"
 			},
 			"created": 1533066491495,
 			"description": "",
@@ -122,7 +137,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1533065097550,
 			"method": "POST",
-			"modified": 1533067981213,
+			"modified": 1533071933248,
 			"name": "register",
 			"parameters": [],
 			"parentId": "fld_5c8b0edf38ef4033aa59fb6087735be5",
@@ -145,13 +160,13 @@
 				{
 					"id": "pair_3bd87e8fb4024d61a53b666725273991",
 					"name": "x-access-token",
-					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YjYwYmZjZjk3ODE3MDRiNWNjMzk1ZjQiLCJ1c2VybmFtZSI6ImFkbWluQGxhdGVqb2luZXJzLmNvbSIsImRpc3BsYXlOYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGxhdGVqb2luZXJzLmNvbSIsInBlcm1pc3Npb25zIjpbXSwiaWF0IjoxNTMzMDY3MjI2LCJleHAiOjE1MzM2NzIwMjZ9.iekoUar0FoIZM8kyjCUIrKIEPbu-3OIYov4ovJCQx84"
+					"value": "{{ token  }}"
 				}
 			],
 			"isPrivate": false,
 			"metaSortKey": -1533067635670,
 			"method": "GET",
-			"modified": 1533068081298,
+			"modified": 1533071953803,
 			"name": "authenticated",
 			"parameters": [],
 			"parentId": "fld_5bbb0193cf3943dbace870676afbf22f",
@@ -174,7 +189,7 @@
 			"isPrivate": false,
 			"metaSortKey": -1533066366635,
 			"method": "GET",
-			"modified": 1533068132361,
+			"modified": 1533071824061,
 			"name": "unauthenticated",
 			"parameters": [],
 			"parentId": "fld_5bbb0193cf3943dbace870676afbf22f",
