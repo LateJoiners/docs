@@ -1,0 +1,206 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2018-07-31T21:19:43.930Z",
+	"__export_source": "insomnia.desktop.app:v6.0.1",
+	"resources": [
+		{
+			"_id": "wrk_f135c7c42d0c4370a7412ad5ddc89c54",
+			"created": 1533064989371,
+			"description": "",
+			"modified": 1533064989371,
+			"name": "Late Joiners",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_cbbe5b2a29bf4485bd82f8b4a06d4b1f",
+			"color": null,
+			"created": 1533064989417,
+			"data": {},
+			"isPrivate": false,
+			"metaSortKey": 1533064989417,
+			"modified": 1533065042933,
+			"name": "New Environment",
+			"parentId": "wrk_f135c7c42d0c4370a7412ad5ddc89c54",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_98ac933c717441e3986ebae55a9e4acb",
+			"cookies": [],
+			"created": 1533064989420,
+			"modified": 1533064989420,
+			"name": "Default Jar",
+			"parentId": "wrk_f135c7c42d0c4370a7412ad5ddc89c54",
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_5c8b0edf38ef4033aa59fb6087735be5",
+			"created": 1533065090284,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1533065090284,
+			"modified": 1533065090284,
+			"name": "Authentication",
+			"parentId": "wrk_f135c7c42d0c4370a7412ad5ddc89c54",
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_5bbb0193cf3943dbace870676afbf22f",
+			"created": 1533067625563,
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1533067625563,
+			"modified": 1533067625563,
+			"name": "Sanity",
+			"parentId": "wrk_f135c7c42d0c4370a7412ad5ddc89c54",
+			"_type": "request_group"
+		},
+		{
+			"_id": "env_bef6674a96514f1792d10582fb0f9483",
+			"color": null,
+			"created": 1533065031206,
+			"data": {
+				"server": "localhost:3000",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YjYwYmZjZjk3ODE3MDRiNWNjMzk1ZjQiLCJ1c2VybmFtZSI6ImFkbWluQGxhdGVqb2luZXJzLmNvbSIsImRpc3BsYXlOYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGxhdGVqb2luZXJzLmNvbSIsInBlcm1pc3Npb25zIjpbXSwiaWF0IjoxNTMzMDY3MjI2LCJleHAiOjE1MzM2NzIwMjZ9.iekoUar0FoIZM8kyjCUIrKIEPbu-3OIYov4ovJCQx84"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1533065031206,
+			"modified": 1533071798853,
+			"name": "Local",
+			"parentId": "env_cbbe5b2a29bf4485bd82f8b4a06d4b1f",
+			"_type": "environment"
+		},
+		{
+			"_id": "env_7a9e5ba2fafe49529b61b17f24dd128b",
+			"color": null,
+			"created": 1533071801388,
+			"data": {
+				"server": "https://lj-server.herokuapp.com",
+				"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1YjYwZDFkNWIyOGE2MzAwMmY4ZmNhNzgiLCJ1c2VybmFtZSI6Imx1a2VAbGF0ZWpvaW5lcnMuY29tIiwiZGlzcGxheU5hbWUiOiJMdWtlIiwiZW1haWwiOiJsdWtlQGxhdGVqb2luZXJzLmNvbSIsInBlcm1pc3Npb25zIjpbXSwiaWF0IjoxNTMzMDcxODMwLCJleHAiOjE1MzM2NzY2MzB9.7Z1wqWnBDV1aeRBWU2GKjHyyNvSDTCRnFNoF8j120lQ"
+			},
+			"isPrivate": false,
+			"metaSortKey": 1533071801388,
+			"modified": 1533071852098,
+			"name": "Dev",
+			"parentId": "env_cbbe5b2a29bf4485bd82f8b4a06d4b1f",
+			"_type": "environment"
+		},
+		{
+			"_id": "req_95a4d5f19e3f490cb68658837a599706",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\": \"admin@latejoiners.com\",\n\t\"password\": \"admin1234\"\n}"
+			},
+			"created": 1533065097599,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ad20f5d114ca46f19186641f2252b690",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1533065097600,
+			"method": "POST",
+			"modified": 1533068006419,
+			"name": "login",
+			"parameters": [],
+			"parentId": "fld_5c8b0edf38ef4033aa59fb6087735be5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/api/authentication/login",
+			"_type": "request"
+		},
+		{
+			"_id": "req_48662772652f48c08a606556da186dc7",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"email\": \"admin@latejoiners.com\",\n\t\"password\": \"admin1234\",\n\t\"displayName\": \"Admin\",\n\t\"permissions\": [\"permissions\"]\n}"
+			},
+			"created": 1533066491495,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_ad20f5d114ca46f19186641f2252b690",
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1533065097550,
+			"method": "POST",
+			"modified": 1533071933248,
+			"name": "register",
+			"parameters": [],
+			"parentId": "fld_5c8b0edf38ef4033aa59fb6087735be5",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/api/authentication/register",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1b281519bb234533ab202662b9b23806",
+			"authentication": {},
+			"body": {},
+			"created": 1533067635670,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_3bd87e8fb4024d61a53b666725273991",
+					"name": "x-access-token",
+					"value": "{{ token  }}"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1533067635670,
+			"method": "GET",
+			"modified": 1533071953803,
+			"name": "authenticated",
+			"parameters": [],
+			"parentId": "fld_5bbb0193cf3943dbace870676afbf22f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/api/sanity/authenticated",
+			"_type": "request"
+		},
+		{
+			"_id": "req_967d02553b124709a99560c366206ef7",
+			"authentication": {},
+			"body": {},
+			"created": 1533068117484,
+			"description": "",
+			"headers": [],
+			"isPrivate": false,
+			"metaSortKey": -1533066366635,
+			"method": "GET",
+			"modified": 1533071824061,
+			"name": "unauthenticated",
+			"parameters": [],
+			"parentId": "fld_5bbb0193cf3943dbace870676afbf22f",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingMaxTimelineDataSize": 1000,
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "{{ server  }}/api/sanity/unauthenticated",
+			"_type": "request"
+		}
+	]
+}
