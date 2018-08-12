@@ -1,6 +1,9 @@
-#Eager Beavers:
+Eager Beavers
+=============
 
-##[Assignment 2](https://trello.com/c/VKPzAWwA/5-assignment-2-submission):
+
+[Assignment 2](https://trello.com/c/VKPzAWwA/5-assignment-2-submission)
+-----------------------------------------------------------------------
 
 A great deal of effort has obviously been put into the formatting and layout, resulting in a document that seems to go well beyond the requirements in terms of professionsal presentation.
 
@@ -11,7 +14,8 @@ Justification of estimations has likewise been completed in a highly detailed ma
 Resources section (collaborative workspaces, software, tools and resources) is comprehensive both in terms of the number/range of tools/resources covered and the amount of detail in each. This section makes it quite clear to someone not already familiar with the project what technologies the team intend to leverage in order to achieve the project's goals, and, while the choice of a cloud-hosted database alongside a locally-hosted web server is somewhat curious, the tools/resources/software chosen would certainly allow the team to achieve their goals.
 
 
-##[Trello](https://trello.com/b/N1u4b7yf/eagerbeavers):
+[Trello](https://trello.com/b/N1u4b7yf/eagerbeavers)
+----------------------------------------------------
 
 Done section could perhaps benefit from having due dates set for each item (even if there was no concrete "due by" date and the date is only added after the task is complete) - if done, this would allow someone to see at a glance when it was that these tasks were completed and gauge the team's rate of progress without having to open individual cards.
 
@@ -22,9 +26,11 @@ On the whole, this team's trello board is quite well organized. Tasks card title
 
 
 
-#Misuse of Muggle Artifacts:
+Misuse of Muggle Artifacts
+==========================
 
-##[Assignment 2](https://trello.com/c/sx7yAK6d/5-assignment-2-submission):
+[Assignment 2](https://trello.com/c/sx7yAK6d/5-assignment-2-submission)
+-----------------------------------------------------------------------
 
 Each MVF is descibed in a highly detailed manner, with mockups showing various states of the app and the actions that trigger transitions between those states as well as the backend activity occuring by way of HTTP requests and JSON responses. However, some diagrams are too hard to follow in the PDF file itself due to size - it may have been better to either split the diagrams up, or to use a larger-than-A4 page sizing for the PDF file. Having said as much, the inclusion of links to copies of the diagrams on the mockflow website in these cases means that it is still possible to view the diagrams at full detail - even if one need to visit an external website in order to do so effectively.
 
@@ -35,7 +41,8 @@ While team members only provide textual justifications on an overall basis, rath
 The software/tools/resources section is detailed and comprehensive, covering a set of software/services that could easily provide all required functionality for the team to achieve the project's' goals. Streamlined details and a simple description is provided for each of these resources, with more data supplied where the team has deemed necessary (i.e. with regards to git/github)
 
 
-##[Trello](https://trello.com/b/usuq9rty/misuseofmuggleartifactsmoma):
+[Trello](https://trello.com/b/usuq9rty/misuseofmuggleartifactsmoma)
+-------------------------------------------------------------------
 
 Layout of trello is mostly well thought out, with a overview of MVF/EVFs in a separate section, and backlog, work in progress and done sections. Having said that, looking at the "Backend API Additions" trello card makes me wonder whether it would be easier to follow if that card was turned into a separate 'API Backlog' section, and the existing backlog being renamed 'Non-API backlog', as doing so would both promote visibility of the work remaining in that category and simplify the task of keeping that particular backlog up to date.
 
