@@ -6,7 +6,9 @@ A great deal of effort has obviously been put into the formatting and layout, re
 
 Though not stated as a requirement, (extremely) detailed descriptions are included along with mockups of each feature, effectively eliminating the possibility of potential misunderstanding. Mockup screens are detailed and well-designed - each appearing to serve their intended purpose well.
 
-Justification of estimations has likewise been completed in a highly detailed manner, with a summary for each MVF describing trends in the estimations and explaining differences. Each team member appears to have approached their estimations as being either what time would be required if they were the sole person working on that particular MVF or if all members were contributing to all MVFs as opposed to what may be a more realistic breakdown of the workload where different members work on different MVFs (i.e. limiting themselves to considering what the team as a whole would achieve). Having said as much, the assignment specification did not explicitly state how the estimations should consider the required tasks to have been divided up amongst team members, so there's no reason to consider this particular approach invalid per se.
+Justification of estimations has likewise been completed in a highly detailed manner, with a summary for each MVF describing trends in the estimations and explaining differences. Each team member appears to have approached their estimations as being either what time would be required if they were the sole person working on that particular MVF or if all members were contributing to all MVFs as opposed to what may be a more realistic breakdown of the workload where different members work on different MVFs (i.e. limiting the estimations to considering what the team as a whole would achieve). Having said as much, the assignment specification did not explicitly state how the estimations should consider the required tasks to have been divided up amongst team members, so there's no reason to consider this particular approach invalid per se.
+
+Resources section (collaborative workspaces, software, tools and resources) is comprehensive both in terms of the number/range of tools/resources covered and the amount of detail in each. This section makes it quite clear to someone not already familiar with the project what technologies the team intend to leverage in order to achieve the project's goals, and, while the choice of a cloud-hosted database alongside a locally-hosted web server is somewhat curious, the tools/resources/software chosen would certainly allow the team to achieve their goals.
 
 
 ##[Trello](https://trello.com/b/N1u4b7yf/eagerbeavers):
@@ -19,17 +21,20 @@ On the whole, this team's trello board is quite well organized. Tasks card title
 
 
 
+
 #Misuse of Muggle Artifacts:
 
 ##[Assignment 2](https://trello.com/c/sx7yAK6d/5-assignment-2-submission):
 
-Each MVF is descibed in a highly detailed manner, with mockups showing various states of the app and the actions that trigger transitions between those states as well as the backend activity occuring by way of HTTP requests and JSON responses. However, some diagrams are too hard to follow in the PDF file itself due to size - it may have been better to either split the diagrams up, or to use a larger-than-A4 page sizing for the PDF file. Having said as much, the inclusion of links to copies of the diagrams on the mockflow website in these cases means that it is still possible to view the diagrams at full detail - even if it is not easy to do so inline.
+Each MVF is descibed in a highly detailed manner, with mockups showing various states of the app and the actions that trigger transitions between those states as well as the backend activity occuring by way of HTTP requests and JSON responses. However, some diagrams are too hard to follow in the PDF file itself due to size - it may have been better to either split the diagrams up, or to use a larger-than-A4 page sizing for the PDF file. Having said as much, the inclusion of links to copies of the diagrams on the mockflow website in these cases means that it is still possible to view the diagrams at full detail - even if one need to visit an external website in order to do so effectively.
 
+In the lead-in to the estimation section an explanation is given of the approach to estimations (i.e. that they are based on how long each team member believed it would take them personally to complete the specified feature). While the assignment does not explicitly require this, it does give some much-needed context to the data that follows, and is a well-thought-out addition to the document.
 
+While team members only provide textual justifications on an overall basis, rather than a per-feature basis, they nevertheless provide the relevant detail to explain the choices in assigning time to each phase (learning, research, design, code, testing) of each feature.
 
-
-
-
+The software/tools/resources section is detailed and comprehensive, covering a set of software/services that could easily provide all required functionality for the team to achieve the project's' goals. Streamlined details and a simple description is provided for each of these resources, with more data supplied where the team has deemed necessary (i.e. with regards to git/github)
 
 
 ##[Trello](https://trello.com/b/usuq9rty/misuseofmuggleartifactsmoma):
+
+
