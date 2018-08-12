@@ -37,4 +37,8 @@ The software/tools/resources section is detailed and comprehensive, covering a s
 
 ##[Trello](https://trello.com/b/usuq9rty/misuseofmuggleartifactsmoma):
 
+Layout of trello is mostly well thought out, with a overview of MVF/EVFs in a separate section, and backlog, work in progress and done sections. Having said that, looking at the "Backend API Additions" trello card makes me wonder whether it would be easier to follow if that card was turned into a separate 'API Backlog' section, and the existing backlog being renamed 'Non-API backlog', as doing so would both promote visibility of the work remaining in that category and simplify the task of keeping that particular backlog up to date.
 
+The lack of dates on some of the trello cards in the done column makes it a little harder to follow the progress of the team, although cards in this column do seem to be more or less in order. An alternate approach where a separate section is created for each week/fortnight/arbitrary time period, and tasks are placed in the section when the team should start working on them and marked as completed once done (whether they are completed within the same time period as they are started or not) might make it easier for someone not familar to the project to get an quick overview of the team's progress at a glance.
+
+One also has to wonder whether it might have been better to have a separate column "Team communication" or "Team issues" for the card "Communication with Andrew" (and any other similar cards) - although of course every team would hope to have so few issues like this as to not require many cards like that be added to their trello board.
